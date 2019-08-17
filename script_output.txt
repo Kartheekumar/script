@@ -1,0 +1,59 @@
+[kumar@localhost script]$ bash script.sh 
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+1 2 3 4 5 6
+1 2 3 4 5 6 7
+1 2 3 4 5 6 7 8
+1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8 9 10
+‘1’ -> ‘1.txt’
+‘2’ -> ‘2.txt’
+‘3’ -> ‘3.txt’
+‘4’ -> ‘4.txt’
+‘5’ -> ‘5.txt’
+‘6’ -> ‘6.txt’
+‘7’ -> ‘7.txt’
+‘8’ -> ‘8.txt’
+‘9’ -> ‘9.txt’
+‘10’ -> ‘10.txt’
+1.txt
+2.txt
+3.txt
+4.txt
+5.txt
+6.txt
+7.txt
+8.txt
+9.txt
+10.txt
+mkdir: created directory ‘/home/kumar/test’
+/home/kumar/test
+1.txt
+2.txt
+3.txt
+4.txt
+5.txt
+6.txt
+7.txt
+8.txt
+9.txt
+10.txt
+Initialized empty Git repository in /home/kumar/Desktop/script/.git/
+[master (root-commit) 2d7a3e0] script added through script
+ 1 file changed, 21 insertions(+)
+ create mode 100755 script.sh
+Username for 'https://github.com': Kartheekumar
+Password for 'https://Kartheekumar@github.com': 
+To https://github.com/Kartheekumar/script.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/Kartheekumar/script.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first merge the remote changes (e.g.,
+hint: 'git pull') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+[kumar@localhost script]$ 
+
